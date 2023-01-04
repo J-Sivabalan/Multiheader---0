@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.top{
+    background-color: rgb(3, 43, 61);
+    height: 30px;
+    align-content: center;
+    color: antiquewhite;
+    display: flex;
+}
+.top ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+}
+.top li{
+    padding: 0px 20px;
+}
+.top .login a{
+    color:antiquewhite;
+    text-decoration: none;
+    margin-left: 900px;
+    font-family:'Franklin Gothic Medium';
+}
+.main{
+    height: 100px;
+    margin-left: 250px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 153, 255));
+}
+.logo{
+    margin-left:-240px;
+    padding: 20px -0px;
+    align-content: center;
+}
+.main h2{
+    margin-top: -75px;
+    margin-left: 600px;
+    font-family: 'Lucida Sans';
+}
+.main ul{
+    margin-left: 530px;
+    margin-top: 5px;
+    display: flex;
+    list-style-type: none;
+}
+.main a{
+    text-decoration: none;
+    color:rgb(68, 39, 122);
+    font-family: 'Trebuchet MS';
+    padding: 0px 10px;
+}
+.bottom{
+    background-color: rgb(45, 45, 134);
+    margin-top: 0px;
+    height: 30px;
+}
+.pages{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 4px 10px;
+}
+.pages a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Segoe UI';
+}
+.pages a:hover{
+    color:aquamarine;
+}
